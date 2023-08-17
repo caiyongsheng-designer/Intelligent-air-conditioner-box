@@ -62,7 +62,7 @@ void rtc_minute_30_read()
      Wifi_get_weather();
    }
 
-  if(wifi_get_weather_flag>30)
+  if(wifi_get_weather_flag>40)
     {
         Wifi_get_weather();
 
